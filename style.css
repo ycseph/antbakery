@@ -1,0 +1,29 @@
+.font-sfpro {
+  font-family: "SF Pro Display Variable", "SF Pro Display", ui-sans-serif,
+    system-ui, sans-serif !important;
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.shake-on-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.shake-on-hover:hover {
+  animation: shake 0.5s ease-in-out;
+}
