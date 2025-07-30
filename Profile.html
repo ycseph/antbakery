@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Puntang Coffee - Profil</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    header {
+      background-color: transparent;
+        position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  padding: 20px 5vw;
+    }
+
+    .logo img {
+      height: 80px;
+    }
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+    nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+  font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+ nav {
+      display: flex;
+      justify-content: flex-end; 
+      gap: 30px;
+       margin-top: -50px;
+    }
+    .hero {
+      height: 100vh;
+      background: url('Image/Hero images Profile 1.png') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.4);
+      z-index: 1;
+    }
+
+    .hero h1 {
+      position: relative;
+      z-index: 2;
+      font-size: 48px;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .section {
+      padding: 40px 5vw;
+      background-color: #ffffff;
+    }
+
+    .section h2 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+            gap: 30px;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 5vw;
+       display: flex;
+        max-width: 500px;
+    }
+
+    .section p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .highlight {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 5vw;
+    }
+
+    .highlight img {
+      max-width: 300px;
+      border-radius: 8px;
+      flex-shrink: 0;
+    }
+
+    .highlight .text {
+      max-width: 500px;
+    }
+
+    .text h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .text p {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      padding: 30px 40px;
+      font-size: 14px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .footer-contact {
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .highlight {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .highlight .text, .highlight img {
+        max-width: 100%;
+      }
+
+      .hero h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+    }
+    .profile-container {
+  display: flex;
+  gap: 10px;
+  padding: 0px 5vw;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.profile-text {
+  flex: 2;
+  min-width: 300px;
+  text-align: colum;        /* teks ke tengah */
+  padding: 60px 5vw;
+  max-width: 660px;
+  margin: 200px;            /* buat rata tengah elemen */
+  margin-bottom: 0px;
+  margin-top: 0px;
+  column-gap: normal;
+}
+
+.visi-misi {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="navbar"></div>
+    <div class="logo">
+      <img src="Image/LOGOPUNTANG (1).png" alt="Logo Puntang Coffee dalam warna putih dengan ikon gunung">
+    </div>
+    <nav>
+      <a href="Beranda.html">Home</a>
+      <a href="Percobaan Produk.html">Produk</a>
+      <a href="Cara pengolahan.html">Cara Pengolahan</a>
+      <a href="Profile.html">Profil</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Profil</h1>
+  </div>
+
+ <div class="highlight">
+  <div class="text">
+    <h2>Profile</h2>
+    <p>
+      Puntang Coffee adalah merek kopi yang menjual berbagai produk kopi spesial dari kawasan Gunung Puntang, Jawa Barat.
+      Mereka menyediakan berbagai varian kopi, termasuk Instant Cold Brew Coffee dengan rasa buah yang menyegarkan,
+      serta paket Arabica Puntang Single Origin dalam ukuran 100g dan 250g.
+    </p>
+  </div>
+  <img src="Image/LOGOPUNTANG (1).png" alt="Logo Puntang" style="max-width: 300px; border-radius: 8px;">
+</div>
+
+<div class="Visi-misi"></div>
+  <div class="highlight">
+    <div class="text">
+      <h2>Misi Kami: Petani Sejahtera tapi Alam Tetap Terjaga</h2>
+      <p>
+        Industri kopi yang tumbuh di negeri ini harusnya “memberi keadilan” dan menjaga keberlanjutan (sustainability)
+        hidup para petani kopi, daerah pertanian, sekaligus lingkungan di mana pertanian-pertanian itu berada. <br><br>
+        Karena eksploitasi kopi secara berlebihan dan menjadikannya sekadar komoditas tanpa kualitas hanya akan
+        menguntungkan sang pemilik modal yang tidak akan memberikan kesejahteraan yang layak bagi para petani kopi.
+      </p>
+    </div>
+    <img src="Image/mount-puntang-coffee-016.jpg" alt="Petani Kopi">
+  </div>
+
+  <div class="highlight">
+    <div class="text">
+      <h2>Visi: Sejahtera Bersama dengan Berkoperasi</h2>
+      <p>
+        Puntang Coffee menginisiasi pembentukan Kelompok Tani Kopi Puntang dan Koperasi Petani Kopi Puntang Mulya Mandiri,
+        untuk memastikan bahwa para petani kopi turut menikmati kesejahteraan seiring bertumbuhnya industri kopi dan
+        meningkatnya ketenaran kopi asal Gunung Puntang. <br><br>
+        Pembinaan melalui kelompok tani bukan sekadar bertujuan ekonomi, tapi juga mendidik petani lokal untuk
+        berkontribusi terhadap kelestarian lingkungan di Gunung Puntang dari eksploitasi berlebihan yang merusak
+        ekosistem alam dalam jangka panjang.
+      </p>
+    </div>
+    <img src="Image/Galeri-Kopi-1024x576.jpg" alt="KTKP">
+  </div>
+
+  <footer>
+    <div>
+      Jl. Raya Gunung Puntang Kp. Nyempet Kadu, RT.06/RW.10,<br>
+      Campakamulya, Kec. Cimaung, Kabupaten Bandung, Jawa Barat 40374
+    </div>
+    <div class="footer-contact">
+      Email: <a href="mailto:cs@puntang.coffee">cs@puntang.coffee</a><br>
+      Telp: <a href="tel:085649052728">085649052728</a>
+    </div>
+    <div style="margin-top: 10px;">© 2025 - Puntang Coffee</div>
+  </footer>
+
+</body>
+</html>
